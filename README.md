@@ -1,4 +1,5 @@
 # Decodificador de Texto - Challenge ONE
+
 ## 📋Sobre
 <p>Uma aplicação que encriptografa mensagens digitadas e descriptografa mensagens encriptografadas por ele.</p>
 
@@ -28,5 +29,9 @@ Por exemplo: "gato" => "gaitober" gaitober" => "gato"
 ![Captura de Tela 2023-06-22 às 23 27 11](https://github.com/shamara-priscila/shamara-priscila.github.io/assets/132709029/59041d37-51ac-4526-b352-ff31ee9d89de)
 ![Captura de Tela 2023-06-22 às 23 27 28](https://github.com/shamara-priscila/shamara-priscila.github.io/assets/132709029/fe7e8595-d9b2-400a-ab65-3b45984dc960)
 
+<div align="center">
+  <h2>Badge recebido devido a finalização do projeto</h2>
+  <img alt="badge" width="200px" src="/imagens/badge1.png"/>
+</div>
 
 
