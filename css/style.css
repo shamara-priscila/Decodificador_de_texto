@@ -1,0 +1,163 @@
+
+body{
+    background: #b9b1b1;
+    font-family: 'Inter', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logoAlura{
+    width: 90px;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.titulo{
+    text-align: center;
+
+}
+.titulo:hover{ 
+    font-weight: 600;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 20px;
+    
+}
+h1, h2{
+    color: #000000;
+}
+h1:hover{
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    margin-bottom: 50px;
+    margin-right: 250px;
+}
+
+.text-area{
+    width: 700px;
+    height: 300px;
+    color: rgb(252, 179, 181);
+    margin-top: 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    text-transform: lowercase;
+}
+
+::placeholder { 
+    color: rgb(252, 179, 181);
+}
+.text-area:focus{
+    outline: none;
+}
+
+.mensagem{
+    width: 250px;
+    height: 450px;
+   background: #000000;
+             /* background-repeat: no-repeat;
+            background-image: url(/assets/imagens/panda.jpeg) ;*/
+    background-image: var(--background-image, initial);
+    background-repeat: var(--background-repeat, initial);
+    background: var(--background-colour, initial);
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #000000;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+}
+
+
+.mensagem::placeholder{
+    text-align: center;
+    position: relative;
+    top: 350px;
+}
+
+.mensagem:focus{
+    outline: none;
+    background: rgb(252, 179, 181);
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar{
+    background: #fcb3b5;
+    border: 1px solid #ff0000;
+    border-radius: 24px;
+    color: #000000;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-desencriptar:active{
+    background: #000000;
+    color: #ffffff;
+}
+
+.btn-encriptar{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #ff0000;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-encriptar:active{
+    background: rgb(252, 179, 181);
+    color: #000000;
+}
+
+.btn-copiar{
+    background: #0e0d0d;
+    border: 1px solid #ff0000;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 20px;
+    margin-top: 492px;
+    position: absolute;
+    width: 336px;
+}
+
+.base{
+    color: #000000;
+    font-size: 18px;
+    margin-top: 125px;
+}
+
+footer p{
+    color: #000000;
+}
+
+footer{
+    text-align: center;
+    margin: 10px;
+
+}
