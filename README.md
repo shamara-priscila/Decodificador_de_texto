@@ -1,6 +1,5 @@
-# Decodificador De Texto
-
-## 📋 Sobre
+# Decodificador de Texto - Challenge ONE
+## 📋Sobre
 <p>Uma aplicação que encriptografa mensagens digitadas e descriptografa mensagens encriptografadas por ele.</p>
 
 <h4>As "chaves" de criptografia utilizadas são:</h4>
@@ -14,7 +13,7 @@ A letra "o" é convertida para "ober."</li>
 A letra "u" é convertida para "ufat."</li>
 <ul>
 
-## 🛠 Requisitos:
+## 🛠Requisitos:
 
  - Deve funcionar apenas com letras minúsculas
  - Não devem ser utilizados letras com acentos nem caracteres especiais
