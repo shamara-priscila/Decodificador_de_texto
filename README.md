@@ -31,7 +31,7 @@ Por exemplo: "gato" => "gaitober" gaitober" => "gato"
 
 <div align="center">
   <h2>Badge recebido devido a finalização do projeto</h2>
-  <img alt="badge" width="200px" src="/imagens/badge1.png"/>
+  <img alt="badge" width="200px" src="assets/imagens/badge1.png"/>
 </div>
 
 
